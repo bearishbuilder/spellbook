@@ -1709,5 +1709,8 @@ VALUES
     ("usdt-tether", "solana", "USDT", "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", 6),
     ("drip-drip-network", "bnb", "DRIP", "0x20f663CEa80FaCE82ACDFA3aAE6862d246cE0333", 18),
     ("fur-furio", "bnb", "$FUR", "0x48378891d6E459ca9a56B88b406E8F4eAB2e39bF", 18),
-    ("pstn-piston", "bnb", "PSTN", "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4", 18)
+    ("pstn-piston", "bnb", "PSTN", "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4", 18),
+        
+    (“ghst-aavegotchi”, “polygon”, “GHST”, “0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7", 18),
+    (“pgx-pegaxy-stone”, “polygon”, “PGX”, “0xc1c93d475dc82fe72dbc7074d55f5a734f8ceeae”, 18)
 ) as temp (token_id, blockchain, symbol, contract_address, decimals)
