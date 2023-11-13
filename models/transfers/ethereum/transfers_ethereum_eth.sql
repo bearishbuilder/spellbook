@@ -5,11 +5,11 @@
         materialized ='incremental',
         file_format ='delta',
         incremental_strategy='merge',
-        unique_key=['tx_hash', 'trace_address'],
+        unique_key=['transfer_type', 'tx_hash', 'trace_address', 'wallet_address', 'block_time'],
         post_hook='{{ expose_spells(\'["ethereum"]\',
                                     "sector",
                                     "transfers",
-                                    \'["msilb7", "chuxin"]\') }}'
+                                    \'["msilb7", "chuxin", "bearishbuilder"]\') }}'
     )
 }}
 
